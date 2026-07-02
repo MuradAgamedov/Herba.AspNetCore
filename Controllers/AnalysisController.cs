@@ -1,11 +1,13 @@
 using Herba.Dtos.Analysis.Item;
 using Herba.Services.Analysis;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AnalysisController : ControllerBase
     {
         private readonly IAnalysisService _analysisService;

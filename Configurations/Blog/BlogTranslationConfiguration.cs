@@ -24,16 +24,20 @@ namespace Herba.Configurations.Blog
 
             builder.Property(x => x.Description)
                 .IsRequired()
-                .HasColumnType("nvarchar(max)");
+                .HasColumnType("nvarchar(max)")
+                .IsRequired(false);
 
             builder.Property(x => x.SeoTitle)
-                .HasMaxLength(255);
+                .HasMaxLength(255)
+                .IsRequired(false);
 
             builder.Property(x => x.SeoKeywords)
-                .HasMaxLength(500);
+                .HasMaxLength(500)
+                .IsRequired(false);
 
             builder.Property(x => x.SeoDescription)
-                .HasMaxLength(500);
+                .HasMaxLength(500)
+                .IsRequired(false);
 
             builder.Property(x => x.ImageAltText)
                 .HasMaxLength(255);

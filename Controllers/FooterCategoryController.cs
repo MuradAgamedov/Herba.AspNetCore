@@ -1,11 +1,13 @@
 using Herba.Dtos.FooterCategory.Item;
 using Herba.Services.FooterCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class FooterCategoryController : ControllerBase
     {
         private readonly IFooterCategoryService _footerCategoryService;
