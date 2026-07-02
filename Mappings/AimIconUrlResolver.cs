@@ -5,7 +5,7 @@ using Herba.Dtos.Aim.Item;
 
 namespace Herba.Mappings
 {
-    public class AimIconUrlResolver : IValueResolver<Aim, ResultAimDto, string?>
+    public class AimIconUrlResolver<TDestination> : IValueResolver<Aim, TDestination, string?>
     {
         private readonly IConfiguration _configuration;
 
@@ -14,7 +14,7 @@ namespace Herba.Mappings
             _configuration = configuration;
         }
 
-        public string? Resolve(Aim source, ResultAimDto destination, string? destMember, ResolutionContext context)
+        public string? Resolve(Aim source, TDestination destination, string? destMember, ResolutionContext context)
         {
             if (string.IsNullOrEmpty(source.Icon))
                 return null;

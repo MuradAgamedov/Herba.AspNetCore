@@ -5,7 +5,7 @@ using Herba.Dtos.About.Item;
 
 namespace Herba.Mappings
 {
-    public class AboutImageUrlResolver : IValueResolver<About, ResultAboutDto, string?>
+    public class AboutImageUrlResolver<TDestination> : IValueResolver<About, TDestination, string?>
     {
         private readonly IConfiguration _configuration;
 
@@ -14,7 +14,7 @@ namespace Herba.Mappings
             _configuration = configuration;
         }
 
-        public string? Resolve(About source, ResultAboutDto destination, string? destMember, ResolutionContext context)
+        public string? Resolve(About source, TDestination destination, string? destMember, ResolutionContext context)
         {
             if (string.IsNullOrEmpty(source.Image))
                 return null;

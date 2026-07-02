@@ -9,10 +9,10 @@ namespace Herba.Mappings
     {
         public AimMappingProfile()
         {
-            CreateMap<ResultAimDto, Aim>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AimIconUrlResolver>());
+            CreateMap<ResultAimDto, Aim>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AimIconUrlResolver<ResultAimDto>>());
             CreateMap<CreateAimDto, Aim>().ReverseMap();
             CreateMap<UpdateAimDto, Aim>().ReverseMap();
-            CreateMap<GetByIdAimDto, Aim>().ReverseMap();
+            CreateMap<GetByIdAimDto, Aim>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AimIconUrlResolver<GetByIdAimDto>>());
             CreateMap<AimFilterDto, Aim>().ReverseMap();
 
             CreateMap<ResultAimTranslationDto, AimTranslation>().ReverseMap();
