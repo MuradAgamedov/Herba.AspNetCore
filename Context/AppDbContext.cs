@@ -5,6 +5,7 @@ using Herba.Entities.Analysis;
 using Herba.Entities.Blog;
 using Herba.Entities.BlogCategory;
 using Herba.Entities.FeaturedProduct;
+using Herba.Entities.FooterCategory;
 using Herba.Entities.Hero;
 using Herba.Entities.Product;
 using Herba.Entities.ProductCategory;
@@ -51,6 +52,8 @@ namespace Herba.Context
         public DbSet<HeroTranslation> HeroTranslations { get; set; }
 
         public DbSet<FeaturedProduct> FeaturedProducts { get; set; }
+
+        public DbSet<FooterCategory> FooterCategories { get; set; }
 
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<TestimonialTranslation> TestimonialTranslations { get; set; }
