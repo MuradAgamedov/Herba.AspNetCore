@@ -1,6 +1,7 @@
 
 using Herba.Context;
 using Herba.Entities;
+using Herba.Repositories.About;
 using Herba.Repositories.Aim;
 using Herba.Repositories.Analysis;
 using Herba.Repositories.Auth;
@@ -9,6 +10,7 @@ using Herba.Repositories.BlogCategory;
 using Herba.Repositories.Product;
 using Herba.Repositories.ProductCategory;
 using Herba.Seeders;
+using Herba.Services.About;
 using Herba.Services.Aim;
 using Herba.Services.Analysis;
 using Herba.Services.Auth;
@@ -39,6 +41,8 @@ namespace Herba
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+            builder.Services.AddScoped<IAboutRepository, AboutRepository>();
+            builder.Services.AddScoped<IAboutService, AboutService>();
             builder.Services.AddScoped<IAuthRepository, AuthRepository>();
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<IBlogCategoryRepository, BlogCategoryRepository>();

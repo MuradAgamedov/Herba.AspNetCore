@@ -1,4 +1,5 @@
 ﻿using Herba.Entities;
+using Herba.Entities.About;
 using Herba.Entities.Aim;
 using Herba.Entities.Analysis;
 using Herba.Entities.Blog;
@@ -39,5 +40,8 @@ namespace Herba.Context
 
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductTranslation> ProductTranslations { get; set; }
+
+        public DbSet<About> Abouts { get; set; }
+        public DbSet<AboutTranslation> AboutTranslations { get; set; }
     }
 }

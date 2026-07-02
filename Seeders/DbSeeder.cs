@@ -7,6 +7,7 @@ namespace Herba.Seeders
         public static void Seed(AppDbContext context)
         {
             BlogCategorySeeder.Seed(context);
+            AboutSeeder.Seed(context);
         }
     }
 }

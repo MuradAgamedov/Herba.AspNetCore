@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Herba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a40ed6cd31aab29fb5eecb49dd1309820fc4629")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2572feff14dfbbf28a0d9ebfc8024ae2e29bccf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Herba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Herba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
