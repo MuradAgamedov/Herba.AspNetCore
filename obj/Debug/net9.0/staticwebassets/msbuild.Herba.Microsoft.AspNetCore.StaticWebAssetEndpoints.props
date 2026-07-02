@@ -1,5 +1,29 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Herba/uploads/about/095961db-2da7-4535-8f80-0a8793830dd2.4tb22syfyh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\about\095961db-2da7-4535-8f80-0a8793830dd2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4tb22syfyh"},{"Name":"integrity","Value":"sha256-SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4="},{"Name":"label","Value":"_content/Herba/uploads/about/095961db-2da7-4535-8f80-0a8793830dd2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15146"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 19:36:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Herba/uploads/about/095961db-2da7-4535-8f80-0a8793830dd2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\about\095961db-2da7-4535-8f80-0a8793830dd2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15146"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 19:36:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Herba/uploads/aims/f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.pjmtoplyw1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aims\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pjmtoplyw1"},{"Name":"integrity","Value":"sha256-m/xEAXowUUap3iKRfl1ykAK\u002BBjzhG5c5MdKK1YBn0so="},{"Name":"label","Value":"_content/Herba/uploads/aims/f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67728"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m/xEAXowUUap3iKRfl1ykAK\u002BBjzhG5c5MdKK1YBn0so=\u0022"},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 19:41:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Herba/uploads/aims/f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aims\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m/xEAXowUUap3iKRfl1ykAK\u002BBjzhG5c5MdKK1YBn0so="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67728"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m/xEAXowUUap3iKRfl1ykAK\u002BBjzhG5c5MdKK1YBn0so=\u0022"},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 19:41:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Herba/uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.c9fb4li56b.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\blogs\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

@@ -5,7 +5,7 @@ namespace Herba.Dtos.Analysis.Item
     public class GetByIdAnalysisDto
     {
         public int Id { get; set; }
-        public string? Icon { get; set; }
+        public string? IconUrl { get; set; }
         public string Url { get; set; }
         public int Order { get; set; }
         public bool Status { get; set; }

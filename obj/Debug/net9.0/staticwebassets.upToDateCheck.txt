@@ -1,3 +1,5 @@
+wwwroot\uploads\about\095961db-2da7-4535-8f80-0a8793830dd2.png
+wwwroot\uploads\aims\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png
 wwwroot\uploads\blogs\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png
 wwwroot\uploads\blogs\4e061e01-927f-4021-a006-1aff9ef33a4c.png
 wwwroot\uploads\blogs\6260b02f-c6b6-4279-bf40-c80b1d38f782.png

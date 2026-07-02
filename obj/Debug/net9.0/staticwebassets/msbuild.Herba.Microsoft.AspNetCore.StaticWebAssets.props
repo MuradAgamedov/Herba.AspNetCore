@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\about\095961db-2da7-4535-8f80-0a8793830dd2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Herba</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Herba</BasePath>
+      <RelativePath>uploads/about/095961db-2da7-4535-8f80-0a8793830dd2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4tb22syfyh</Fingerprint>
+      <Integrity>SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\about\095961db-2da7-4535-8f80-0a8793830dd2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aims\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Herba</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Herba</BasePath>
+      <RelativePath>uploads/aims/f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pjmtoplyw1</Fingerprint>
+      <Integrity>m/xEAXowUUap3iKRfl1ykAK+BjzhG5c5MdKK1YBn0so=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aims\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\blogs\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Herba</SourceId>

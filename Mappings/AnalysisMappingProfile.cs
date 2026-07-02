@@ -9,10 +9,10 @@ namespace Herba.Mappings
     {
         public AnalysisMappingProfile()
         {
-            CreateMap<ResultAnalysisDto, Analysis>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AnalysisIconUrlResolver>());
+            CreateMap<ResultAnalysisDto, Analysis>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AnalysisIconUrlResolver<ResultAnalysisDto>>());
             CreateMap<CreateAnalysisDto, Analysis>().ReverseMap();
             CreateMap<UpdateAnalysisDto, Analysis>().ReverseMap();
-            CreateMap<GetByIdAnalysisDto, Analysis>().ReverseMap();
+            CreateMap<GetByIdAnalysisDto, Analysis>().ReverseMap().ForMember(dest => dest.IconUrl, opt => opt.MapFrom<AnalysisIconUrlResolver<GetByIdAnalysisDto>>());
             CreateMap<AnalysisFilterDto, Analysis>().ReverseMap();
 
             CreateMap<ResultAnalysisTranslationDto, AnalysisTranslation>().ReverseMap();

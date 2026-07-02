@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\about\\095961db-2da7-4535-8f80-0a8793830dd2.png",
+      "PackagePath": "staticwebassets\\uploads\\about\\095961db-2da7-4535-8f80-0a8793830dd2.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\aims\\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png",
+      "PackagePath": "staticwebassets\\uploads\\aims\\f45d6f29-6160-4d4f-adbf-4c9fc1bf3e59.png"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
       "PackagePath": "staticwebassets\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"
     },
