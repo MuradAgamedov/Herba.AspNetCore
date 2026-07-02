@@ -10,7 +10,7 @@ namespace Herba.Mappings
         public AboutMappingProfile()
         {
             CreateMap<ResultAboutDto, About>().ReverseMap()
-                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<AboutImageUrlResolver>());
+                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<AboutImageUrlResolver<ResultAboutDto>>());
             CreateMap<UpdateAboutDto, About>().ReverseMap();
 
             CreateMap<ResultAboutTranslationDto, AboutTranslation>().ReverseMap();
