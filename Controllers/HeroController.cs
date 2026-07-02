@@ -1,11 +1,13 @@
 using Herba.Dtos.Hero.Item;
 using Herba.Services.Hero;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class HeroController : ControllerBase
     {
         private readonly IHeroService _heroService;

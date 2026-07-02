@@ -2,13 +2,14 @@
 using Herba.Dtos.Common;
 using Herba.Repositories.BlogCategory;
 using Herba.Services.BlogCategory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
+    [Authorize]
 
     public class BlogCategoryController : ControllerBase
     {

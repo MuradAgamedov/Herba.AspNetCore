@@ -1,11 +1,13 @@
 using Herba.Dtos.Testimonial.Item;
 using Herba.Services.Testimonial;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TestimonialController : ControllerBase
     {
         private readonly ITestimonialService _testimonialService;

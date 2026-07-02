@@ -1,11 +1,13 @@
 using Herba.Dtos.FeaturedProduct.Item;
 using Herba.Services.FeaturedProduct;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class FeaturedProductController : ControllerBase
     {
         private readonly IFeaturedProductService _featuredProductService;

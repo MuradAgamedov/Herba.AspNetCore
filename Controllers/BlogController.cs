@@ -1,11 +1,13 @@
 ﻿using Herba.Dtos.Blog.Post;
 using Herba.Services.Blog;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BlogController : ControllerBase
     {
         private readonly IBlogService _blogService;

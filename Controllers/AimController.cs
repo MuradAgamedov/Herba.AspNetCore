@@ -1,11 +1,13 @@
 using Herba.Dtos.Aim.Item;
 using Herba.Services.Aim;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AimController : ControllerBase
     {
         private readonly IAimService _aimService;

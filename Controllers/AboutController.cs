@@ -1,11 +1,13 @@
 using Herba.Dtos.About.Item;
 using Herba.Services.About;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Herba.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AboutController : ControllerBase
     {
         private readonly IAboutService _aboutService;
