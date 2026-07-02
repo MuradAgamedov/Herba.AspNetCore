@@ -1,10 +1,14 @@
 
 using Herba.Context;
 using Herba.Entities;
+using Herba.Repositories.Aim;
+using Herba.Repositories.Analysis;
 using Herba.Repositories.Auth;
 using Herba.Repositories.Blog;
 using Herba.Repositories.BlogCategory;
 using Herba.Seeders;
+using Herba.Services.Aim;
+using Herba.Services.Analysis;
 using Herba.Services.Auth;
 using Herba.Services.Blog;
 using Herba.Services.BlogCategory;
@@ -37,6 +41,10 @@ namespace Herba
             builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
             builder.Services.AddScoped<IBlogRepository, BlogRepository>();
             builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddScoped<IAimRepository, AimRepository>();
+            builder.Services.AddScoped<IAimService, AimService>();
+            builder.Services.AddScoped<IAnalysisRepository, AnalysisRepository>();
+            builder.Services.AddScoped<IAnalysisService, AnalysisService>();
             builder.Services.AddScoped<IFileService, FileService>();
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())

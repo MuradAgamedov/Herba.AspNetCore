@@ -5,6 +5,248 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Aim": {
+      "get": {
+        "tags": [
+          "Aim"
+        ],
+        "parameters": [
+          {
+            "name": "Search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Aim"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Status",
+                  "Translations"
+                ],
+                "type": "object",
+                "properties": {
+                  "IconFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Status": {
+                    "type": "boolean"
+                  },
+                  "Translations": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/UpdateAimTranslationDto"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "IconFile": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Translations": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Aim/{id}": {
+      "put": {
+        "tags": [
+          "Aim"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Status"
+                ],
+                "type": "object",
+                "properties": {
+                  "IconFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Status": {
+                    "type": "boolean"
+                  },
+                  "Translations": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/UpdateAimTranslationDto"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "IconFile": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Translations": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Aim"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Aim"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Aim/{ids}": {
+      "delete": {
+        "tags": [
+          "Aim"
+        ],
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/login": {
       "post": {
         "tags": [
@@ -559,6 +801,28 @@
             "format": "email"
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateAimTranslationDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "iconAltText": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageCode": {
             "type": "string",
             "nullable": true
           }

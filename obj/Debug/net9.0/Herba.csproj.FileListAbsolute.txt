@@ -177,3 +177,9 @@ C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\bin\Debug\net9.0\Herba.staticwebassets.runtime.json
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\swae.build.ex.cache

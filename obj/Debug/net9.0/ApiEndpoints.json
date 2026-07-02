@@ -1,5 +1,141 @@
 [
   {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Aim",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Aim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IconFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Translations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Herba.Dtos.Aim.Translation.UpdateAimTranslationDto, Herba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Aim/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IconFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Translations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Herba.Dtos.Aim.Translation.UpdateAimTranslationDto, Herba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "GetByIdAim",
+    "RelativePath": "api/Aim/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Aim/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AimController",
+    "Method": "DeleteRangeAsync",
+    "RelativePath": "api/Aim/{ids}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "ids",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Herba.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
