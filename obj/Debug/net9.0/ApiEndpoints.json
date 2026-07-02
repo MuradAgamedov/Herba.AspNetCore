@@ -1,5 +1,36 @@
 [
   {
+    "ContainingType": "Herba.Controllers.AboutController",
+    "Method": "GetAsync",
+    "RelativePath": "api/About",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.AboutController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/About",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Translations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Herba.Dtos.About.Translation.UpdateAboutTranslationDto, Herba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Herba.Controllers.AimController",
     "Method": "GetAsync",
     "RelativePath": "api/Aim",
@@ -555,6 +586,32 @@
         "Name": "ids",
         "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.HeroController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Hero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Herba.Controllers.HeroController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Hero",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Herba.Dtos.Hero.Item.UpdateHeroDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

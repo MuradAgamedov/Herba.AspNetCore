@@ -8,6 +8,8 @@ namespace Herba.Seeders
         {
             BlogCategorySeeder.Seed(context);
             AboutSeeder.Seed(context);
+            HeroSeeder.Seed(context);
+            TestimonialSeeder.Seed(context);
         }
     }
 }

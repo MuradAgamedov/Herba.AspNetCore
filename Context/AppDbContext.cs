@@ -4,8 +4,11 @@ using Herba.Entities.Aim;
 using Herba.Entities.Analysis;
 using Herba.Entities.Blog;
 using Herba.Entities.BlogCategory;
+using Herba.Entities.FeaturedProduct;
+using Herba.Entities.Hero;
 using Herba.Entities.Product;
 using Herba.Entities.ProductCategory;
+using Herba.Entities.Testimonial;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -43,5 +46,13 @@ namespace Herba.Context
 
         public DbSet<About> Abouts { get; set; }
         public DbSet<AboutTranslation> AboutTranslations { get; set; }
+
+        public DbSet<Hero> Heroes { get; set; }
+        public DbSet<HeroTranslation> HeroTranslations { get; set; }
+
+        public DbSet<FeaturedProduct> FeaturedProducts { get; set; }
+
+        public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<TestimonialTranslation> TestimonialTranslations { get; set; }
     }
 }

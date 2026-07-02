@@ -434,6 +434,145 @@ namespace Herba.Migrations
                     b.ToTable("BlogCategoryTranslations");
                 });
 
+            modelBuilder.Entity("Herba.Entities.FeaturedProduct.FeaturedProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId")
+                        .IsUnique();
+
+                    b.ToTable("FeaturedProducts");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Hero.Hero", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Heroes");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Hero.HeroTranslation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Badge")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int>("HeroId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LanguageCode")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("PrimaryButtonText")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("RecommendationText")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("SampleResultTitle")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("SecondaryButtonText")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Stat1Label")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Stat1Value")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Stat2Label")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Stat2Value")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Stat3Label")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Stat3Value")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("TrustBadge1")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("TrustBadge2")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("TrustBadge3")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HeroId", "LanguageCode")
+                        .IsUnique();
+
+                    b.ToTable("HeroTranslations");
+                });
+
             modelBuilder.Entity("Herba.Entities.Product.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -582,6 +721,69 @@ namespace Herba.Migrations
                         .IsUnique();
 
                     b.ToTable("ProductCategoryTranslations");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Testimonial.Testimonial", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Status")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Testimonials");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Testimonial.TestimonialTranslation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LanguageCode")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Quote")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("TestimonialId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TestimonialId", "LanguageCode")
+                        .IsUnique();
+
+                    b.ToTable("TestimonialTranslations");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -772,6 +974,28 @@ namespace Herba.Migrations
                     b.Navigation("BlogCategory");
                 });
 
+            modelBuilder.Entity("Herba.Entities.FeaturedProduct.FeaturedProduct", b =>
+                {
+                    b.HasOne("Herba.Entities.Product.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Hero.HeroTranslation", b =>
+                {
+                    b.HasOne("Herba.Entities.Hero.Hero", "Hero")
+                        .WithMany("Translations")
+                        .HasForeignKey("HeroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Hero");
+                });
+
             modelBuilder.Entity("Herba.Entities.Product.Product", b =>
                 {
                     b.HasOne("Herba.Entities.ProductCategory.ProductCategory", "ProductCategory")
@@ -803,6 +1027,17 @@ namespace Herba.Migrations
                         .IsRequired();
 
                     b.Navigation("ProductCategory");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Testimonial.TestimonialTranslation", b =>
+                {
+                    b.HasOne("Herba.Entities.Testimonial.Testimonial", "Testimonial")
+                        .WithMany("Translations")
+                        .HasForeignKey("TestimonialId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Testimonial");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -881,12 +1116,22 @@ namespace Herba.Migrations
                     b.Navigation("Translations");
                 });
 
+            modelBuilder.Entity("Herba.Entities.Hero.Hero", b =>
+                {
+                    b.Navigation("Translations");
+                });
+
             modelBuilder.Entity("Herba.Entities.Product.Product", b =>
                 {
                     b.Navigation("Translations");
                 });
 
             modelBuilder.Entity("Herba.Entities.ProductCategory.ProductCategory", b =>
+                {
+                    b.Navigation("Translations");
+                });
+
+            modelBuilder.Entity("Herba.Entities.Testimonial.Testimonial", b =>
                 {
                     b.Navigation("Translations");
                 });

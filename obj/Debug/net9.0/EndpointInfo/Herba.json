@@ -5,6 +5,57 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/About": {
+      "get": {
+        "tags": [
+          "About"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "About"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Translations": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/UpdateAboutTranslationDto"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "ImageFile": {
+                  "style": "form"
+                },
+                "Translations": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Aim": {
       "get": {
         "tags": [
@@ -911,6 +962,47 @@
         }
       }
     },
+    "/api/Hero": {
+      "get": {
+        "tags": [
+          "Hero"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Hero"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateHeroDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateHeroDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateHeroDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product": {
       "get": {
         "tags": [
@@ -1420,6 +1512,28 @@
         },
         "additionalProperties": false
       },
+      "UpdateAboutTranslationDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageAltText": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "UpdateAimTranslationDto": {
         "type": "object",
         "properties": {
@@ -1533,6 +1647,93 @@
             "nullable": true
           },
           "imageAltText": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateHeroDto": {
+        "type": "object",
+        "properties": {
+          "translations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UpdateHeroTranslationDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateHeroTranslationDto": {
+        "type": "object",
+        "properties": {
+          "badge": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "primaryButtonText": {
+            "type": "string",
+            "nullable": true
+          },
+          "secondaryButtonText": {
+            "type": "string",
+            "nullable": true
+          },
+          "trustBadge1": {
+            "type": "string",
+            "nullable": true
+          },
+          "trustBadge2": {
+            "type": "string",
+            "nullable": true
+          },
+          "trustBadge3": {
+            "type": "string",
+            "nullable": true
+          },
+          "sampleResultTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat1Label": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat1Value": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat2Label": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat2Value": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat3Label": {
+            "type": "string",
+            "nullable": true
+          },
+          "stat3Value": {
+            "type": "string",
+            "nullable": true
+          },
+          "recommendationText": {
             "type": "string",
             "nullable": true
           },
