@@ -19,6 +19,7 @@ namespace Herba.Controllers
 
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] Dtos.Auth.LoginDto dto)
         {
             var token = await _authService.LoginAsnycAsync(dto);

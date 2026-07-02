@@ -27,6 +27,10 @@ namespace Herba.Repositories.Blog
         {
             var slugExists = await _context.Blogs.AnyAsync(x => x.Slug == dto.Slug);
             if (slugExists) throw new ArgumentException($"'{dto.Slug}' slug-ı artıq mövcuddur, başqa slug seçin");
+
+            var categoryExists = await _context.BlogCategories.AnyAsync(x => x.Id == dto.BlogCategoryId);
+            if (!categoryExists) throw new ArgumentException("Seçilmiş bloq kateqoriyası mövcud deyil");
+
             var value = _mapper.Map<Herba.Entities.Blog.Blog>(dto);
             if (dto.ImageFile != null)
             {
@@ -89,13 +93,17 @@ namespace Herba.Repositories.Blog
 
             if (slugExists)  throw new ArgumentException($"'{dto.Slug}' slug-ı artıq mövcuddur, başqa slug seçin");
 
+            var categoryExists = await _context.BlogCategories.AnyAsync(x => x.Id == dto.BlogCategoryId);
+            if (!categoryExists) throw new ArgumentException("Seçilmiş bloq kateqoriyası mövcud deyil");
+
             if (dto.ImageFile != null)
             {
-                _fileService.DeleteFile(value.Image); 
+                _fileService.DeleteFile(value.Image);
                 value.Image = await _fileService.SaveFileAsync(dto.ImageFile, "blogs");
             }
 
             value.Slug = dto.Slug;
+            value.BlogCategoryId = dto.BlogCategoryId;
             value.ReadMinutes = dto.ReadMinutes;
             value.PublishedAt = dto.PublishedAt;
             value.Status = dto.Status;

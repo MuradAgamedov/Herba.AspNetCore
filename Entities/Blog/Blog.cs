@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public string Slug { get; set; }
+        public int BlogCategoryId { get; set; }
+        public Herba.Entities.BlogCategory.BlogCategory BlogCategory { get; set; }
         public int? ReadMinutes { get; set; }
         public DateTime PublishedAt { get; set; }
         public string? Image { get; set; }

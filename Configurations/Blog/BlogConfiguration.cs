@@ -30,6 +30,11 @@ namespace Herba.Configurations.Blog
                 .IsRequired()
                 .HasDefaultValue(true);
 
+            builder.HasOne(x => x.BlogCategory)
+                .WithMany()
+                .HasForeignKey(x => x.BlogCategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             builder.HasMany(x => x.Translations)
                 .WithOne(x => x.Blog)
                 .HasForeignKey(x => x.BlogId)

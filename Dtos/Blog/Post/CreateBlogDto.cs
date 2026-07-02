@@ -7,6 +7,8 @@ namespace Herba.Dtos.Blog.Post
     {
         [Required]
         public string Slug { get; set; }
+        [Required]
+        public int BlogCategoryId { get; set; }
         public int? ReadMinutes { get; set; }
         [Required]
         public DateTime PublishedAt { get; set; }
