@@ -40,7 +40,8 @@ namespace Herba.Configurations.Blog
                 .IsRequired(false);
 
             builder.Property(x => x.ImageAltText)
-                .HasMaxLength(255);
+                .HasMaxLength(255)
+                .IsRequired(false);
 
             builder.HasIndex(x => x.BlogId);
 
