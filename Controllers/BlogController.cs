@@ -64,8 +64,8 @@ namespace Herba.Controllers
             return Ok("Bloq uğurla silindi");
         }
 
-        [HttpDelete("{ids}")]
-        public async Task<IActionResult> DeleteRangeAsync(List<int> ids)
+        [HttpDelete("range")]
+        public async Task<IActionResult> DeleteRangeAsync([FromQuery] List<int> ids)
         {
             var result = await _blogService.DeleteRangeAsync(ids);
             if (result == null)

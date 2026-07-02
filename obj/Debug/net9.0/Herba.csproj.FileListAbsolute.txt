@@ -167,15 +167,6 @@ C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\Herba.pdb
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\Herba.genruntimeconfig.cache
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\ref\Herba.dll
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\Herba.sourcelink.json
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\bin\Debug\net9.0\System.Text.Json.dll
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\msbuild.build.Herba.props
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Herba.props
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Herba.props
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\bin\Debug\net9.0\Herba.staticwebassets.runtime.json
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\TechEvo Computers\Desktop\Herba\Herba\obj\Debug\net9.0\rjimswa.dswa.cache.json
