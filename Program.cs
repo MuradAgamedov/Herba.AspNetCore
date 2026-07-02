@@ -6,6 +6,8 @@ using Herba.Repositories.Analysis;
 using Herba.Repositories.Auth;
 using Herba.Repositories.Blog;
 using Herba.Repositories.BlogCategory;
+using Herba.Repositories.Product;
+using Herba.Repositories.ProductCategory;
 using Herba.Seeders;
 using Herba.Services.Aim;
 using Herba.Services.Analysis;
@@ -14,6 +16,8 @@ using Herba.Services.Blog;
 using Herba.Services.BlogCategory;
 using Herba.Services.File;
 using Herba.Services.Files;
+using Herba.Services.Product;
+using Herba.Services.ProductCategory;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -45,6 +49,10 @@ namespace Herba
             builder.Services.AddScoped<IAimService, AimService>();
             builder.Services.AddScoped<IAnalysisRepository, AnalysisRepository>();
             builder.Services.AddScoped<IAnalysisService, AnalysisService>();
+            builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
+            builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IFileService, FileService>();
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())

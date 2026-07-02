@@ -3,6 +3,8 @@ using Herba.Entities.Aim;
 using Herba.Entities.Analysis;
 using Herba.Entities.Blog;
 using Herba.Entities.BlogCategory;
+using Herba.Entities.Product;
+using Herba.Entities.ProductCategory;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -31,5 +33,11 @@ namespace Herba.Context
 
         public DbSet<Analysis> Analyses { get; set; }
         public DbSet<AnalysisTranslation> AnalysisTranslations { get; set; }
+
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<ProductCategoryTranslation> ProductCategoryTranslations { get; set; }
+
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductTranslation> ProductTranslations { get; set; }
     }
 }
