@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e29bf08-2204-440c-af9a-70971a6f92ee.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\4e29bf08-2204-440c-af9a-70971a6f92ee.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Herba.props",
+      "PackagePath": "build\\Herba.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Herba.props",
+      "PackagePath": "buildMultiTargeting\\Herba.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Herba.props",
+      "PackagePath": "buildTransitive\\Herba.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

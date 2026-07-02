@@ -2,10 +2,14 @@
 using Herba.Context;
 using Herba.Entities;
 using Herba.Repositories.Auth;
+using Herba.Repositories.Blog;
 using Herba.Repositories.BlogCategory;
 using Herba.Seeders;
 using Herba.Services.Auth;
+using Herba.Services.Blog;
 using Herba.Services.BlogCategory;
+using Herba.Services.File;
+using Herba.Services.Files;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -31,6 +35,9 @@ namespace Herba
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<IBlogCategoryRepository, BlogCategoryRepository>();
             builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
+            builder.Services.AddScoped<IBlogRepository, BlogRepository>();
+            builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddScoped<IFileService, FileService>();
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())
             {
@@ -48,7 +55,7 @@ namespace Herba
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-          
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

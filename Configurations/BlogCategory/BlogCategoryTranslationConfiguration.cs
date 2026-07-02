@@ -9,9 +9,21 @@ namespace Herba.Configurations
         public void Configure(EntityTypeBuilder<BlogCategoryTranslation> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.HasOne(x => x.BlogCategory)
-                .WithMany(x => x.Translations)
-                .HasForeignKey(x => x.BlogCategoryId);
+
+            builder.Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(200);
+
+            builder.Property(x => x.LanguageCode)
+                .IsRequired()
+                .HasMaxLength(10);
+
+            builder.HasIndex(x => new
+            {
+                x.BlogCategoryId,
+                x.LanguageCode
+            })
+            .IsUnique();
         }
     }
 }

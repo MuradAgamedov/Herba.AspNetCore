@@ -34,7 +34,7 @@ namespace Herba.Controllers
         }
 
 
-        [HttpPut("id")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAsync(int id, [FromBody] UpdateBlogCategoryDto dto)
         {
             var result = await _blogCategoryService.UpdateAsync(id, dto);
@@ -46,7 +46,7 @@ namespace Herba.Controllers
         }
 
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdBlogCategory(int id)
         {
             var result = await _blogCategoryService.GetById(id);
@@ -57,7 +57,7 @@ namespace Herba.Controllers
             return Ok(result);
         }
 
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
 
         public async Task<IActionResult> DeleteAsync(int id)
         {
@@ -69,7 +69,7 @@ namespace Herba.Controllers
             return Ok("Bloq kateqoriyası uğurla silindi");
         }
 
-        [HttpDelete("ids")]
+        [HttpDelete("{ids}")]
         public async Task<IActionResult> DeleteRangeAsync(List<int> ids)
         {
             var result = await _blogCategoryService.DeleteRangeAsync(ids);

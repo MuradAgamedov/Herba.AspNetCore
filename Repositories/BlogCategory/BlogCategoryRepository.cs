@@ -15,10 +15,10 @@ namespace Herba.Repositories.BlogCategory
         private readonly AppDbContext _context;
         private readonly IMapper _mapper;
 
-        public BlogCategoryRepository(AppDbContext context, IMapper imapper)
+        public BlogCategoryRepository(AppDbContext context, IMapper mapper)
         {
             _context = context;
-            _mapper = imapper;
+            _mapper = mapper;
         }
 
         public async Task CreateAsync(CreateBlogCategoryDto dto)

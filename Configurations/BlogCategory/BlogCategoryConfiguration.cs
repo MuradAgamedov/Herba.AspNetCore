@@ -9,11 +9,18 @@ namespace Herba.Configurations
         public void Configure(EntityTypeBuilder<BlogCategory> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.HasMany(x=>x.Translations)
-                .WithOne(x=>x.BlogCategory)
+
+            builder.Property(x => x.Order)
+                .IsRequired();
+
+            builder.Property(x => x.Status)
+                .IsRequired()
+                .HasDefaultValue(true);
+
+            builder.HasMany(x => x.Translations)
+                .WithOne(x => x.BlogCategory)
                 .HasForeignKey(x => x.BlogCategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
-            builder.Property(x => x.Status).HasDefaultValue(true).IsRequired();
         }
     }
 }

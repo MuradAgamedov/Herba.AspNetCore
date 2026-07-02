@@ -14,6 +14,8 @@ namespace Herba.Mappings
             CreateMap<CreateBlogCategoryDto, BlogCategory>().ReverseMap();
             CreateMap<UpdateBlogCategoryDto, BlogCategory>().ReverseMap();
             CreateMap<GetByIdBlogCategoryDto, BlogCategory>().ReverseMap();
+            CreateMap<BlogCategoryFilterDto, BlogCategory>().ReverseMap();
+
 
             CreateMap<ResultBlogCategoryTranslationDto, BlogCategoryTranslation>().ReverseMap();
             CreateMap<CreateBlogCategoryTranslationDto, BlogCategoryTranslation>().ReverseMap();

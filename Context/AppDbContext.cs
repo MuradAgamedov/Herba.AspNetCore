@@ -1,4 +1,5 @@
 ﻿using Herba.Entities;
+using Herba.Entities.Blog;
 using Herba.Entities.BlogCategory;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -19,5 +20,8 @@ namespace Herba.Context
 
         public DbSet<BlogCategory> BlogCategories { get; set; }
         public DbSet<BlogCategoryTranslation> BlogCategoryTranslations { get; set; }
+
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogTranslation> BlogTranslations { get; set; }
     }
 }
