@@ -13,15 +13,23 @@ namespace Herba.Mappings
     {
         public BlogMappingProfile()
         {
-            CreateMap<ResultBlogDto, Blog>().ReverseMap().ForMember(dest=>dest.ImageUrl, opt=>opt.MapFrom<BlogImageUrlResolver>());
-            CreateMap<CreateBlogDto, Blog>().ReverseMap();
-            CreateMap<UpdateBlogDto, Blog>().ReverseMap();
-            CreateMap<GetByIdBlogDto, Blog>().ReverseMap();
+            CreateMap<Blog, ResultBlogDto>()
+                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<BlogImageUrlResolver<ResultBlogDto>>());
+
+            CreateMap<Blog, GetByIdBlogDto>()
+                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<BlogImageUrlResolver<GetByIdBlogDto>>());
+
+            CreateMap<CreateBlogDto, Blog>()
+                .ForMember(dest => dest.Image, opt => opt.Ignore());
+
+            CreateMap<UpdateBlogDto, Blog>()
+                .ForMember(dest => dest.Image, opt => opt.Ignore());
+
             CreateMap<BlogFilterDto, Blog>().ReverseMap();
 
-            CreateMap<ResultBlogTranslationDto, BlogTranslation>().ReverseMap();
-            CreateMap<CreateBlogTranslationDto, BlogTranslation>().ReverseMap();
-            CreateMap<UpdateBlogTranslationDto, BlogTranslation>().ReverseMap();
+            CreateMap<BlogTranslation, ResultBlogTranslationDto>();
+            CreateMap<CreateBlogTranslationDto, BlogTranslation>();
+            CreateMap<UpdateBlogTranslationDto, BlogTranslation>();
         }
     }
 }

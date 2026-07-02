@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "PackagePath": "staticwebassets\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Herba.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Herba.props",
+      "PackagePath": "build\\Herba.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Herba.props",
+      "PackagePath": "buildMultiTargeting\\Herba.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Herba.props",
+      "PackagePath": "buildTransitive\\Herba.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

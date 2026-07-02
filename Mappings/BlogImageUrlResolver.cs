@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Configuration;
 using Herba.Entities.Blog;
-using Herba.Dtos.Blog.Post;
 
 namespace Herba.Mappings
 {
-    public class BlogImageUrlResolver : IValueResolver<Blog, ResultBlogDto, string?>
+    public class BlogImageUrlResolver<TDestination> : IValueResolver<Blog, TDestination, string?>
     {
         private readonly IConfiguration _configuration;
 
@@ -14,7 +13,7 @@ namespace Herba.Mappings
             _configuration = configuration;
         }
 
-        public string? Resolve(Blog source, ResultBlogDto destination, string? destMember, ResolutionContext context)
+        public string? Resolve(Blog source, TDestination destination, string? destMember, ResolutionContext context)
         {
             if (string.IsNullOrEmpty(source.Image))
                 return null;

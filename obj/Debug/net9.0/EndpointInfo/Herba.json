@@ -574,6 +574,7 @@
             "multipart/form-data": {
               "schema": {
                 "required": [
+                  "BlogCategoryId",
                   "PublishedAt",
                   "Slug",
                   "Status",
@@ -583,6 +584,10 @@
                 "properties": {
                   "Slug": {
                     "type": "string"
+                  },
+                  "BlogCategoryId": {
+                    "type": "integer",
+                    "format": "int32"
                   },
                   "ReadMinutes": {
                     "type": "integer",
@@ -609,6 +614,9 @@
               },
               "encoding": {
                 "Slug": {
+                  "style": "form"
+                },
+                "BlogCategoryId": {
                   "style": "form"
                 },
                 "ReadMinutes": {
@@ -658,6 +666,7 @@
             "multipart/form-data": {
               "schema": {
                 "required": [
+                  "BlogCategoryId",
                   "PublishedAt",
                   "Slug",
                   "Status"
@@ -666,6 +675,10 @@
                 "properties": {
                   "Slug": {
                     "type": "string"
+                  },
+                  "BlogCategoryId": {
+                    "type": "integer",
+                    "format": "int32"
                   },
                   "ReadMinutes": {
                     "type": "integer",
@@ -692,6 +705,9 @@
               },
               "encoding": {
                 "Slug": {
+                  "style": "form"
+                },
+                "BlogCategoryId": {
                   "style": "form"
                 },
                 "ReadMinutes": {

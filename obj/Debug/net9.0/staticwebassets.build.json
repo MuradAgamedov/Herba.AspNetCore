@@ -1,1 +1,743 @@
-{"Version":1,"Hash":"A8fkfAsZNHmSVpl+h4yxxxq+CcPLLd6yYt1yVUBGfiE=","Source":"Herba","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"Herba\\wwwroot","Source":"Herba","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png","SourceId":"Herba","SourceType":"Discovered","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","RelativePath":"uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"c9fb4li56b","Integrity":"AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png","FileLength":21893,"LastWriteTime":"2026-07-02T15:41:36+00:00"},{"Identity":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png","SourceId":"Herba","SourceType":"Discovered","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","RelativePath":"uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"hujoww2fui","Integrity":"efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png","FileLength":145249,"LastWriteTime":"2026-07-02T15:36:14+00:00"},{"Identity":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png","SourceId":"Herba","SourceType":"Discovered","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","RelativePath":"uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"9crvejq5ov","Integrity":"14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png","FileLength":687154,"LastWriteTime":"2026-07-02T15:40:16+00:00"},{"Identity":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png","SourceId":"Herba","SourceType":"Discovered","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","RelativePath":"uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"luuow7oqqx","Integrity":"LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png","FileLength":42618,"LastWriteTime":"2026-07-02T15:35:49+00:00"},{"Identity":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\cda79c59-f25c-43a0-a96b-548fa9337a46.png","SourceId":"Herba","SourceType":"Discovered","ContentRoot":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\","BasePath":"/","RelativePath":"uploads/blogs/cda79c59-f25c-43a0-a96b-548fa9337a46#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"e5xei8n88z","Integrity":"UoE9WruHgulKP/wPkOisobHTD9vv4a2NoBpN9uK+rNE=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\blogs\\cda79c59-f25c-43a0-a96b-548fa9337a46.png","FileLength":66047,"LastWriteTime":"2026-07-02T18:57:29+00:00"}],"Endpoints":[{"Route":"uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.c9fb4li56b.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21893"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:41:36 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"c9fb4li56b"},{"Name":"integrity","Value":"sha256-AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M="},{"Name":"label","Value":"uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"}]},{"Route":"uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21893"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:41:36 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M="}]},{"Route":"uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.hujoww2fui.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145249"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:36:14 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"hujoww2fui"},{"Name":"integrity","Value":"sha256-efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA="},{"Name":"label","Value":"uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.png"}]},{"Route":"uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"145249"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:36:14 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA="}]},{"Route":"uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.9crvejq5ov.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"687154"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:40:16 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"9crvejq5ov"},{"Name":"integrity","Value":"sha256-14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o="},{"Name":"label","Value":"uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.png"}]},{"Route":"uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"687154"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:40:16 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o="}]},{"Route":"uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.luuow7oqqx.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42618"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:35:49 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"luuow7oqqx"},{"Name":"integrity","Value":"sha256-LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ="},{"Name":"label","Value":"uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.png"}]},{"Route":"uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42618"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 15:35:49 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ="}]},{"Route":"uploads/blogs/cda79c59-f25c-43a0-a96b-548fa9337a46.e5xei8n88z.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\cda79c59-f25c-43a0-a96b-548fa9337a46.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66047"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"UoE9WruHgulKP/wPkOisobHTD9vv4a2NoBpN9uK+rNE=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 18:57:29 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"e5xei8n88z"},{"Name":"integrity","Value":"sha256-UoE9WruHgulKP/wPkOisobHTD9vv4a2NoBpN9uK+rNE="},{"Name":"label","Value":"uploads/blogs/cda79c59-f25c-43a0-a96b-548fa9337a46.png"}]},{"Route":"uploads/blogs/cda79c59-f25c-43a0-a96b-548fa9337a46.png","AssetFile":"C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\cda79c59-f25c-43a0-a96b-548fa9337a46.png","Selectors":[],"ResponseHeaders":[{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66047"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"UoE9WruHgulKP/wPkOisobHTD9vv4a2NoBpN9uK+rNE=\""},{"Name":"Last-Modified","Value":"Thu, 02 Jul 2026 18:57:29 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-UoE9WruHgulKP/wPkOisobHTD9vv4a2NoBpN9uK+rNE="}]}]}
+{
+  "Version": 1,
+  "Hash": "bQHtgoklFIV7t7q2Zi1d0mN0rKFKwJxHf8t/RtcA5n0=",
+  "Source": "Herba",
+  "BasePath": "_content/Herba",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Herba\\wwwroot",
+      "Source": "Herba",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c9fb4li56b",
+      "Integrity": "AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hujoww2fui",
+      "Integrity": "efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/blogs/6260b02f-c6b6-4279-bf40-c80b1d38f782#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhwz98fdyn",
+      "Integrity": "OYhuTpDRF/M1wyBpuS39JK56t828WynmlO7jynwmC+A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9crvejq5ov",
+      "Integrity": "14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "luuow7oqqx",
+      "Integrity": "LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/products/601ccf87-0246-442c-8741-8b3970771384#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4tb22syfyh",
+      "Integrity": "SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png"
+    },
+    {
+      "Identity": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png",
+      "SourceId": "Herba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\",
+      "BasePath": "_content/Herba",
+      "RelativePath": "uploads/products/95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z3d26p7zjq",
+      "Integrity": "36g8IWMz9qpBBrGMlfspWsGhQWtrfUqgN3sHTcSwW/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.c9fb4li56b.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:41:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c9fb4li56b"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\1d417bfb-c1ca-4de4-b261-f120f8a94ed1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:41:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIZJdS0aNGzxfCbilyYaYRbF37bUGtyG1hmX4xUei/M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.hujoww2fui.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:36:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hujoww2fui"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\4e061e01-927f-4021-a006-1aff9ef33a4c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:36:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-efoTcBDixSN/cSwrO9HWsutFSAdXqVm0mirSi4puMjA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/6260b02f-c6b6-4279-bf40-c80b1d38f782.lhwz98fdyn.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OYhuTpDRF/M1wyBpuS39JK56t828WynmlO7jynwmC+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhwz98fdyn"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/blogs/6260b02f-c6b6-4279-bf40-c80b1d38f782.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OYhuTpDRF/M1wyBpuS39JK56t828WynmlO7jynwmC+A="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/6260b02f-c6b6-4279-bf40-c80b1d38f782.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6260b02f-c6b6-4279-bf40-c80b1d38f782.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OYhuTpDRF/M1wyBpuS39JK56t828WynmlO7jynwmC+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OYhuTpDRF/M1wyBpuS39JK56t828WynmlO7jynwmC+A="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.9crvejq5ov.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9crvejq5ov"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\6938b8d5-399a-45be-8e75-9b1beeb94f9b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-14mF9qBegznEwpv81QV36LfTNhCCtPpNm2suFIBk00o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.luuow7oqqx.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:35:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "luuow7oqqx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/blogs/94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\blogs\\94525796-3844-4993-ba80-65ba1e22b61d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 15:35:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LU7qdueN/zQluu5TDb7urrdqZkf1dq/iHEZnZO36NVQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/601ccf87-0246-442c-8741-8b3970771384.4tb22syfyh.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:18:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tb22syfyh"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/products/601ccf87-0246-442c-8741-8b3970771384.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/601ccf87-0246-442c-8741-8b3970771384.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\601ccf87-0246-442c-8741-8b3970771384.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:18:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SLqKzAvkCJQFkWvXwVvUNNXGOWKpF/MzEf6t3haFdL4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36g8IWMz9qpBBrGMlfspWsGhQWtrfUqgN3sHTcSwW/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-36g8IWMz9qpBBrGMlfspWsGhQWtrfUqgN3sHTcSwW/I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.z3d26p7zjq.png",
+      "AssetFile": "C:\\Users\\TechEvo Computers\\Desktop\\Herba\\Herba\\wwwroot\\uploads\\products\\95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36g8IWMz9qpBBrGMlfspWsGhQWtrfUqgN3sHTcSwW/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jul 2026 19:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z3d26p7zjq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/products/95dd9b9c-8ef5-4a30-85f7-8efc30d1d93f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36g8IWMz9qpBBrGMlfspWsGhQWtrfUqgN3sHTcSwW/I="
+        }
+      ]
+    }
+  ]
+}
