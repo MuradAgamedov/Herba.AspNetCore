@@ -9,7 +9,7 @@ namespace Herba.Dtos.Blog.Post
         public int BlogCategoryId { get; set; }
         public int? ReadMinutes { get; set; }
         public DateTime PublishedAt { get; set; }
-        public string? Image { get; set; }
+        public string? ImageUrl { get; set; }
         public bool Status { get; set; }
         public ICollection<ResultBlogTranslationDto> Translations { get; set; }
     }

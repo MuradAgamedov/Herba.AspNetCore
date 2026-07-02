@@ -10,11 +10,12 @@ namespace Herba.Mappings
         public ProductMappingProfile()
         {
             CreateMap<ResultProductDto, Product>().ReverseMap()
-                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<ProductImageUrlResolver>())
-                .ForMember(dest => dest.HoverImageUrl, opt => opt.MapFrom<ProductHoverImageUrlResolver>());
+                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<ProductImageUrlResolver<ResultProductDto>>())
+                .ForMember(dest => dest.HoverImageUrl, opt => opt.MapFrom<ProductHoverImageUrlResolver<ResultProductDto>>());
             CreateMap<CreateProductDto, Product>().ReverseMap();
             CreateMap<UpdateProductDto, Product>().ReverseMap();
-            CreateMap<GetByIdProductDto, Product>().ReverseMap();
+            CreateMap<GetByIdProductDto, Product>().ReverseMap().ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<ProductImageUrlResolver<GetByIdProductDto>>())
+                .ForMember(dest => dest.HoverImageUrl, opt => opt.MapFrom<ProductHoverImageUrlResolver<GetByIdProductDto>>());
             CreateMap<ProductFilterDto, Product>().ReverseMap();
 
             CreateMap<ResultProductTranslationDto, ProductTranslation>().ReverseMap();
